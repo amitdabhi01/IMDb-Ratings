@@ -32,6 +32,9 @@
 .p-10{
     padding: 10px;
 }
+.mb-100{
+    margin-bottom: 100px;
+}
 /* --------------------------------Navbar start -------------------------------- */
 .container1{
     max-width: 100%;
@@ -81,12 +84,20 @@
     font-size: 15px;
     font-family: "Poppins", serif;
 }
+#Watchlist:hover{
+    background-color: rgb(78, 75, 75);
+    border-radius: 5px;
+}
 #Sign-in{
     text-decoration: none;
     color: #fff;
     margin-left: 30px;
     font-family: "Poppins", serif;
     font-size: 15px;
+}
+#Sign-in:hover{
+    background-color: rgb(78, 75, 75);
+    border-radius: 5px;
 }
 #Language{
     width: 30%;
@@ -103,3 +114,54 @@
     padding: 0px 0px 0px 20px;
 }
 /* --------------------------------Navbar end -------------------------------- */
+
+
+
+/* --------------------------------slider section start -------------------------------- */
+.main-slider div img{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.main-slider{
+    position: relative;
+}
+.main-slider .slick-prev{
+    left: 40px;
+    z-index: 2;
+}
+.main-slider .slick-prev:before{
+    font-size: 40px;
+    border: 1px solid #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.main-slider .slick-next{
+    right: 70px;
+    z-index: 2;
+}
+.main-slider .slick-next:before{
+    font-size: 40px;
+    border: 1px solid #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+
+.movie-data{
+    position: absolute;
+}
+.movie-data{
+    position: absolute;
+    color: white;
+   bottom: 0;
+   left: 20px;
+}
+.movie-data img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+/* --------------------------------slider section end -------------------------------- */
