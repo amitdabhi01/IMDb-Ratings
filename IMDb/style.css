@@ -118,16 +118,23 @@
 
 
 /* --------------------------------slider section start -------------------------------- */
+.d-flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main-slider div img{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+    
 }
 .main-slider{
     position: relative;
 }
 .main-slider .slick-prev{
+    top: 300px;
     left: 40px;
     z-index: 2;
 }
@@ -139,6 +146,7 @@
 }
 
 .main-slider .slick-next{
+    top: 300px;
     right: 70px;
     z-index: 2;
 }
@@ -149,19 +157,43 @@
     border-radius: 5px;
 }
 
-
-.movie-data{
-    position: absolute;
-}
-.movie-data{
+.movies-data{
     position: absolute;
     color: white;
-   bottom: 0;
-   left: 20px;
+    bottom: 0;
 }
-.movie-data img{
+.movies-data img{
     width: 100%;
-    height: 300px;
+    height: 350px;
     border-radius: 10px;
+}
+.data a{
+    text-decoration: none;
+    color: white;
+}
+.data i{
+    font-size: 90px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.data1{
+    margin: 20px 0px 0px 10px;
+}
+.data1 a{
+    text-decoration: none;
+    color: white;
+}
+.data1 a h2{
+    font-size: 40px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+.data1 a p{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+.data1 a i{
+    font-size: 18px;
 }
 /* --------------------------------slider section end -------------------------------- */
