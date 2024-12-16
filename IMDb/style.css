@@ -197,3 +197,59 @@
     font-size: 18px;
 }
 /* --------------------------------slider section end -------------------------------- */
+
+
+
+/* --------------------------------top-10-imdb section srat -------------------------------- */
+.title h1{
+    border-left: 3px solid #F5C513;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: "Poppins", serif;
+    color: #fff;
+}
+
+.movie-thumb a img{
+    width: 100%;
+    border-radius: 0px 10px 0px 0px;
+}
+.ri-star-s-fil{
+    color: #F5C513 !important;
+}
+.ri-star-s-line{
+    color: #5799ef;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.imdb-data{
+    padding: 10px;
+    background-color: rgb(78, 75, 75);
+    border-radius: 0px 10px 10px 0px;
+}
+.imdb-data p{
+    color: #fff;
+    font-size: 24px;
+    font-family: "Poppins", serif;
+    margin-bottom: 10px;
+}
+.imdb-data a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: "Poppins", serif;
+}
+.watchlist a{
+    text-decoration: none;
+    color: #5799ef;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.trailer a{
+    text-decoration: none;
+    color: #fff;
+}
+/* --------------------------------top-10-imdb section end -------------------------------- */

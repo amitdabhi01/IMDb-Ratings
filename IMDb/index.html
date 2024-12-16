@@ -66,7 +66,7 @@
 
 
     <section>
-        <div class="container1">
+        <div class="container1 mb-100">
             <div class="container">
                 <div class="main-slider">
                     <div class="brutalist-img">
@@ -127,6 +127,106 @@
             </div>
         </div>
     </section>
+
+
+    <section>
+        <div class="container">
+            <div class="title">
+                <h1>Top 10 on IMDb this week</h1>
+            </div>
+            <div class="top-10-slider">
+                <div class="d-flex">
+                    <div class="box p-20">
+                        <div class="movie-thumb">
+                            <a href=""><img src="Images/wicked.jpeg" alt=""></a>
+                        </div>
+                        <div class="imdb-data">
+                            <p><i class="ri-star-s-fill"></i>8.0</p><i class="ri-star-s-line"></i>
+                            <a href="">1. Wicked</a>
+                            <div class="watchlist">
+                                <a href="">+ watchlist</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-20">
+                        <div class="movie-thumb">
+                            <a href=""><img src="Images/yellowstone.jpeg" alt=""></a>
+                        </div>
+                        <div class="imdb-data">
+                            <p><i class="ri-star-s-fill"></i>8.7</p><i class="ri-star-s-line"></i>
+                            <a href="">2. Yellowstone</a>
+                            <div class="watchlist">
+                                <a href="">+ watchlist</a>
+                            </div>
+                            <div class="trailer">
+                                <a href=""><i class="ri-play-fill"></i>Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-20">
+                        <div class="movie-thumb">
+                            <a href=""><img src="Images/arcane.jpeg" alt=""></a>
+                        </div>
+                        <div class="imdb-data">
+                            <p><i class="ri-star-s-fill"></i>9.1</p><i class="ri-star-s-line"></i>
+                            <a href="">3. Arcane</a>
+                            <div class="watchlist">
+                                <a href="">+ watchlist</a>
+                            </div>
+                            <div class="trailer">
+                                <a href=""><i class="ri-play-fill"></i>Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-20">
+                        <div class="movie-thumb">
+                            <a href=""><img src="Images/moana_2.jpeg" alt=""></a>
+                        </div>
+                        <div class="imdb-data">
+                            <p><i class="ri-star-s-fill"></i>7.0</p><i class="ri-star-s-line"></i>
+                            <a href="">4. Moana 2</a>
+                            <div class="watchlist">
+                                <a href="">+ watchlist</a>
+                            </div>
+                            <div class="trailer">
+                                <a href=""><i class="ri-play-fill"></i>Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-20">
+                        <div class="movie-thumb">
+                            <a href=""><img src="Images/skeleton_crew.jpeg" alt=""></a>
+                        </div>
+                        <div class="imdb-data">
+                            <p><i class="ri-star-s-fill"></i>7.2</p><i class="ri-star-s-line"></i>
+                            <a href="">5. skeleton Crew</a>
+                            <div class="watchlist">
+                                <a href="">+ watchlist</a>
+                            </div>
+                            <div class="trailer">
+                                <a href=""><i class="ri-play-fill"></i>Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box p-20">
+                        <div class="movie-thumb">
+                            <a href=""><img src="Images/gladiator_2.jpeg" alt=""></a>
+                        </div>
+                        <div class="imdb-data">
+                            <p><i class="ri-star-s-fill"></i>6.9</p><i class="ri-star-s-line"></i>
+                            <a href="">6. Gladiator ||</a>
+                            <div class="watchlist">
+                                <a href="">+ watchlist</a>
+                            </div>
+                            <div class="trailer">
+                                <a href=""><i class="ri-play-fill"></i>Trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 
@@ -140,6 +240,50 @@
   speed: 1000,
   slidesToShow: 1,
   slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 6,
+        slidesToScroll: 6,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 4
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
+$('.top-10-slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 6,
+  slidesToScroll: 6,
   responsive: [
     {
       breakpoint: 1024,
