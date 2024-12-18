@@ -360,3 +360,40 @@
     font-family: "Poppins", serif;
 }
 /* --------------------------------top-10-imdb section end -------------------------------- */
+
+
+
+/* --------------------------------footer start -------------------------------- */
+.sign-in-for-more{
+    background-color: #F5C513;
+    border-radius: 40px;
+    border: none;
+    padding: 10px 40px;
+    display: block;
+    margin: auto;
+}
+.sign-in-for-more a{
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    color: black;
+}
+.social-icon{
+    padding: 24px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.social-icon h4{
+    /* display: block; */
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    color: #fff;
+    text-align: center;
+}
+.social-icon i{
+    color: #fff;
+    font-size: 30px;
+    padding: 12px;
+}
+/* --------------------------------footer end -------------------------------- */
