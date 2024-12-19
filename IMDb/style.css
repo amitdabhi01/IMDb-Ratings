@@ -278,14 +278,15 @@
 
 /* --------------------------------top-10-imdb section srat -------------------------------- */
 .top-10-slider .slick-prev{
-    left: -45px;
+    left: -10px;
+    z-index: 1;
 }
 .top-10-slider .slick-prev:before{
     font-size: 40px;
 }
 
 .top-10-slider .slick-next{
-    right: -27px;
+    right: 10px;
 }
 .top-10-slider .slick-next:before{
     font-size: 40px;
@@ -330,7 +331,7 @@
 .imdb-data h5 a{
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Poppins", serif;
     display: block;
     margin-bottom: 30px;
@@ -360,6 +361,35 @@
     font-family: "Poppins", serif;
 }
 /* --------------------------------top-10-imdb section end -------------------------------- */
+
+
+
+/* --------------------------------fan-favorites section start -------------------------------- */
+.fan-favorites .slick-prev{
+    left: -10px;
+    z-index: 1;
+}
+.fan-favorites .slick-prev:before{
+    font-size: 40px;
+}
+
+.fan-favorites .slick-next{
+    right: 10px;
+}
+.fan-favorites .slick-next:before{
+    font-size: 40px;
+}
+/* --------------------------------fan-favorites section end -------------------------------- */
+
+
+
+/* --------------------------------Popular-interests section start -------------------------------- */
+.Popular-interests a img{
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 20px;
+}
+/* --------------------------------Popular-interests section end -------------------------------- */
 
 
 
