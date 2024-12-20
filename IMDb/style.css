@@ -35,8 +35,9 @@
 .mb-100{
     margin-bottom: 100px;
 }
-
-
+.mb-20{
+    margin-bottom: 20px;
+}
 
 /* --------------------------------Navbar start -------------------------------- */
 .container1{
@@ -398,8 +399,79 @@
     color: #fff;
     font-family: "Poppins", serif;
 }
+.Popular-interests .slick-prev{
+    left: -10px;
+    z-index: 1;
+}
+.Popular-interests .slick-prev:before{
+    font-size: 40px;
+}
 
+.Popular-interests .slick-next{
+    right: 10px;
+}
+.Popular-interests .slick-next:before{
+    font-size: 40px;
+}
 /* --------------------------------Popular-interests section end -------------------------------- */
+
+
+
+/* --------------------------------Explore what's streaming section start -------------------------------- */
+.title1 h1{
+    color: #F5C513;
+    font-family: "Poppins", serif;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", serif;
+    padding: 0px 24px 10px;
+}
+.justify-start{
+    justify-content: start;
+}
+.navbar2 a:first-child{
+    border-bottom: 3px solid #5799ef;
+}
+.prime-video .slick-prev{
+    left: -10px;
+    z-index: 1;
+}
+.prime-video .slick-prev:before{
+    font-size: 40px;
+}
+
+.prime-video .slick-next{
+    right: 10px;
+}
+.prime-video .slick-next:before{
+    font-size: 40px;
+}
+/* --------------------------------Explore what's streaming section end -------------------------------- */
+
+
+
+/* --------------------------------In theaters streaming section end -------------------------------- */
+.Showtimes a{
+    text-decoration: none;
+    color: #5799ef;
+    /* border: 1px solid red; */
+    border-radius: 40px;
+    padding: 5px 30px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: "Poppins", serif;
+    background-color: #FFFFFF14;
+}
+.Showtimes a:hover{
+    background-color: #4d5a6d;
+    color: #5799ef;
+}
+/* --------------------------------In theaters streaming section end -------------------------------- */
 
 
 
