@@ -8,7 +8,7 @@
     margin: auto;
 }
 .box{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 100%;
 }
 .bg-color{
@@ -38,7 +38,9 @@
 .mb-20{
     margin-bottom: 20px;
 }
-
+.border{
+    border-radius: 20px;
+}
 /* --------------------------------Navbar start -------------------------------- */
 .container1{
     max-width: 100%;
@@ -132,7 +134,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
-    
 }
 .main-slider{
     position: relative;
@@ -165,6 +166,7 @@
     position: absolute;
     color: white;
     bottom: 0;
+    background: linear-gradient(180deg,transparent 0,transparent 0,rgba(0,0,0,.35) 35.5%,rgba(0,0,0,.75));
 }
 .movies-data img{
     width: 100%;
@@ -191,14 +193,16 @@
     font-size: 40px;
     font-family: "Poppins", serif;
     font-weight: 500;
+    color: white;
 }
 .data1 a p{
     font-size: 20px;
     font-family: "Poppins", serif;
-    font-weight: 300;
+    color: white;
 }
 .data1 a i{
     font-size: 18px;
+    color: white;
 }
 /* --------------------------------slider section end -------------------------------- */
 
@@ -338,6 +342,9 @@
     margin-bottom: 30px;
     font-weight: 400;
 }
+.imdb-data h5 a:hover{
+    text-decoration: underline;
+}
 .watchlist a{
     text-decoration: none;
     color: #5799ef;
@@ -398,6 +405,9 @@
     text-decoration: none;
     color: #fff;
     font-family: "Poppins", serif;
+}
+.Popular-interests-name a:hover{
+    text-decoration: underline;
 }
 .Popular-interests .slick-prev{
     left: -10px;
@@ -471,6 +481,20 @@
     background-color: #4d5a6d;
     color: #5799ef;
 }
+.In-theaters .slick-prev{
+    left: -10px;
+    z-index: 1;
+}
+.In-theaters .slick-prev:before{
+    font-size: 40px;
+}
+
+.In-theaters .slick-next{
+    right: 10px;
+}
+.In-theaters .slick-next:before{
+    font-size: 40px;
+}
 /* --------------------------------In theaters streaming section end -------------------------------- */
 
 
@@ -487,17 +511,20 @@
 .sign-in-for-more a{
     text-decoration: none;
     font-family: "Poppins", serif;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
 }
+.sign-in-for-more:hover{
+    background-color: #c49d10;
+}
 .social-icon{
-    padding: 24px;
-    border: 1px solid white;
+    /* padding: 24px; */
+    /* border: 1px solid white; */
     border-radius: 20px;
 }
 .social-icon h4{
     /* display: block; */
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0px 0px 0px;
     font-size: 20px;
     font-family: "Poppins", serif;
     color: #fff;
@@ -507,5 +534,31 @@
     color: #fff;
     font-size: 30px;
     padding: 12px;
+}
+.for-ios h3{
+    color: #fff;
+    padding: 23px 0px 10px;
+    font-family: "Poppins", serif;
+}
+.for-ios h4{
+    color: #fff;
+    padding: 0px 0px 23px 0px;
+    font-family: "Poppins", serif;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", serif;
+    padding: 10px;
+    font-size: 18px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    color:#FFFFFFB3;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 12px;
 }
 /* --------------------------------footer end -------------------------------- */
